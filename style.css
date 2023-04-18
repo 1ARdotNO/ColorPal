@@ -1,0 +1,33 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    color: #000000;
+  }
+  
+  #colorPalette {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+  }
+  
+  .colorBox {
+    width: 100px;
+    height: 100px;
+    margin: 0 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #generatePaletteButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #0099ff;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+  }
+  
